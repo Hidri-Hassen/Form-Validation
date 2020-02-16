@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Form Validation</title>
+    
+</head>
+
+<body>
+    <div class="section">
+        <form name="myForm" class="form" onsubmit="return validForm()">
+            <h4>Name:</h6>
+                <input name="name" type="text" style="color: white;">
+                <h4>Last Name:</h6>
+                    <input name="lastName" type="text" style="color: white;">
+                    <h4>Address:</h6>
+                        <input name="address" type="text" style="color: white;">
+                        <h4>E-mail Adress:</h6>
+                            <input name="email" style="color: white;">
+                            <h4>Password</h6>
+                                <input name="password" type="password" style="color: white;">
+                                <h4>Comments:</h6>
+                                    <input class="comment" name="comments" type="text" style="color: white;"><br>
+                                    <input class="send" type="submit" value="Send" style="color: white;"><br>
+                                    <input class="reset" type="reset" value="Reset" style="color: white;">
+        </form>
+    </div>
+
+</body>
+
+</html>

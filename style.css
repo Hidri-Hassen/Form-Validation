@@ -1,0 +1,38 @@
+body{
+    background-color: rgba(105,81,129,1);;
+    margin-left: 550px;
+    margin-right: 550px;
+
+}
+h4{
+    color: white;
+    padding: 10px 0 10px 5px;
+    margin: 0;
+}
+input{
+    width: 250px;
+    border-radius: 5px;
+    height: 25px;
+    padding-top: 5px;
+    background-color:  rgba(90,60,93,1);
+    text-decoration-color: white;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    
+}
+.form{
+    width: 400px;
+    height: 600px;
+}
+.comment{
+    height: 75px;
+}
+.send{
+    margin-top: 10px;
+}
+.reset{
+    margin-top: 10px;
+}
